@@ -1,0 +1,22 @@
+{
+  "name": "Here my finances",
+  "description": "With this simple web extension you'll be able to take control of your daily finances.",
+  "manifest_version": 1,
+  "icons": {
+    "16": "./",
+    "32": "./",
+    "48": "./",
+    "128": "./"
+  },
+  "background": {
+    "scripts": ["./"]
+  },
+  "options_page": "./",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ]
+}
